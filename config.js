@@ -18,13 +18,13 @@ global.github = process.env.GITHUB || "https://github.com/Bot-hostin/DRK-RAGNA-1
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnICVfe3I2Fe72w";
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vakp0UnICVfe3I2Fe72w";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.imgur.com/vRR63CN.jpeg,https://i.imgur.com/ovCfp9J.jpeg,https://i.imgur.com/edzo5dj.jpeg";
-global.devs = "https://wa.me/50931461936 , https://wa.me/50931461936";
+global.devs = "https://wa.me/256744866509 , https://wa.me/256744866509";
 global.sudo = process.env.SUDO || "50931461936";
-global.owner = process.env.OWNER_NUMBER || "PUT YOUR OWNER NUMBER";
+global.owner = process.env.OWNER_NUMBER || "256744866509";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
+global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
-global.warncount = process.env.WARN_COUNT || 3;
+global.warncount = process.env.WARN_COUNT || 5;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
@@ -43,7 +43,7 @@ global.scan = "https://drk-tech-2.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  "mettre votre session ici"
+  "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU5COGdiVTdNV1RNNnYxTFhmbVpSQXh6am5NSUo2cFoxcFcxdGlST1VFRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZHYvU0k3d09RQndvR1pFdWJRQTNZQkg5SkpHNzl3cGhZbk1IdVZGdnlnST0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPSmJFL0I5cVdyeVBwMktvL0VZdHBsbnh5SXd3K0FoUVpxWmJ5cldNd0hjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqY0YvR0Nyb01ieTNvTFFxSVdBWitOV3pSYXFGV1N2WFB5MytqVUdpS0RVPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNOMXVNT0VYRDhSenVscmZzcHRzSmo5b2VBUTlpVjNET0NtaVF2NGNSVXM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlzZVZQQmpRRGkxWlUxVXlwc2hMSmd0LzN5LzBLZmhlYXZER0QyZzIzZ1U9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU1AxRHJoNU5vVjZvb0FIcXBNaTM1Rmg1aVI5bkpzZW1IVS9mNEZYUDFHYz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidzltMzExU2ZCQTBrbktNcXduVGtqb3R6LzBkRVR5UkppaTBOZmd1QmNqWT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImNDRkc0V3VxeDlvbk9aMEx5TWthbW5jeHBnZ3ZBYTJyWDZEUVhEbEhjTUkzZSt3Z2E4aS84RDBpc2dXaWJLWXZXL3l4cDJzckNLVE5jc1lwQUpRMmhBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6ODUsImFkdlNlY3JldEtleSI6IkZIVE9LNjRqa2d0UnpISS9VZGZ5NXJhMGdZUElzR2E5VHpkMHpObWhnaEE9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImxMV3VqSUNpU25TVk53VFYyUzRGOFEiLCJwaG9uZUlkIjoiMDk5OGRlZjItZjRkMi00Nzc1LTk4MzktOWU3MjI5NDBjZDBkIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkpqblNNZ01GdGt3OXFXNmVrT0xBWHMzZlNJUT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIvVEc3MUNRbWUzYlV2N0FQQWNwd29mbG5Bcm89In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiV0cyV1pTMVYiLCJtZSI6eyJpZCI6IjI1Njc0NDg2NjUwOTo2QHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ik1hZ2lzdHJhdGUgQ29sbGlucyBLIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNKYW1tcFVDRUwreHliOEdHQVlnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJaTXVYc2VSTEQ4QnJoWUF2bVZ1Q3QvejB4MW9NbnU1YTZFeXlpSG5XZHpRPSIsImFjY291bnRTaWduYXR1cmUiOiJsTVMybjBWOXpMV2hGZXdSZlBxN0QyelYzbHQ0c1dwUWlya2lNOGF5VDBRZFhxWTdrRk9ZN0E5aEVVRDg3cmJxc1lvUjJ6MTRzR21XQ0FFV1RxNk1EQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiNmlhb1M5MlErZGZzWnorRC8wZTJtb1VrTFRUWjRqcFJNTHRMVUM1NXFzMk1PZmJEYmFWSmd2WFJxWVJBY2lDaXhsdzJlSllYeVFjNjYrbHkxOU5MaUE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyNTY3NDQ4NjY1MDk6NkBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJXVExsN0hrU3cvQWE0V0FMNWxiZ3JmODlNZGFESjd1V3VoTXNvaDUxbmMwIn19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzQzOTM1Njk0fQ=="
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
