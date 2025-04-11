@@ -6,8 +6,8 @@ if (fs.existsSync(".env"))
 global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
-global.appUrl = process.env.APP_URL || "";
-global.email = "sandrk766@gmail.com";
+
+global.email = "infocollsman@gmail.com";
 global.location = "Port-au-Prince, Haiti";
 global.mongodb = process.env.MONGODB_URL || "mongodb+srv://Rayan:<Emmanuel237>@cluster0.8twd0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 global.allowJids = process.env.ALLOW_JID || "null";
@@ -21,7 +21,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.
 global.devs = "https://wa.me/256744866509 , https://wa.me/256744866509";
 global.sudo = process.env.SUDO || "50931461936";
 global.owner = process.env.OWNER_NUMBER || "256744866509";
-global.style = process.env.STYLE || "3";
+global.style = process.env.STYLE || "4";
 global.gdbye = process.env.GOODBYE || "true";
 global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 5;
@@ -38,8 +38,7 @@ global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
-global.api_smd = "https://drk-tech-2.onrender.com/;
-global.scan = "https://drk-tech-2.onrender.com/";
+
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
@@ -49,21 +48,18 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`BRAND PRODUCT OF 𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨`",
+  caption: process.env.CAPTION || "`BRAND OF KISEMBO COLLINS",
   author: process.env.PACK_AUTHER || " 𝙎-𝙏𝞢𝞜",
   packname: process.env.PACK_NAME || "𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨",
-  botname: process.env.BOT_NAME || "ST┘𝑫𝑹𝑲-𝑹𝑨𝑮𝑵𝑨𖤐",
-  ownername: process.env.OWNER_NAME || "🌹⃟⃢👑 ĐÆ𝚪𝐊༒𝙎-𝙏𝞢𝞜🌹⃟⃢👑",
+  botname: process.env.BOT_NAME || "COLLSMAN",
+  ownername: process.env.OWNER_NAME || "collins",
   errorChat: process.env.ERROR_CHAT || "",
-  KOYEB_API: process.env.KOYEB_API || "false",
+  
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "tCxobE1FqJgfbDZgsYQNHBFB",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
-  antilink_values: process.env.ANTILINK_VALUES || "all",
-  HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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"
+  
   aitts_Voice_Id: process.env.AITTS_ID || "37",
-  ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "...d336",
+  
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   LANG: (process.env.THEME || "STEN").toUpperCase(),
 };
